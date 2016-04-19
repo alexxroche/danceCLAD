@@ -1,0 +1,174 @@
+,,,,,,,,,,,,,,,,
+"//!","History"
+"//!","Copyright (C) 2015 Alexx Roche"
+"//!","Permission is granted to copy, distribute and/or modify this document"
+"//!","under the terms of the GNU Free Documentation License, Version 1.3"
+"//!","or any later version published by the Free Software Foundation;"
+"//!","with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts."
+"//!","# = comment, N = node, C = connector, D = domain"
+"//!","SVG = SVG image to include, PNG = PNG image to include"
+"//!"
+"#","Nodes"
+"#","Name","Color","Parent","Start","Stop","Icon","Description","[Namechange","When","Description","[Namechange","When","Description",". . . ]]"
+
+#Music: Blues, Jazz, Rock, Punk, Pop
+"N","Music","#99ff44",,"1600.0.0","","",""
+"N","Blues Music","#99ff44","Music","1890.0.0","","",""
+"N","Jazz Music","#99ff44","Music","1910.0.0","","",""
+"N","Rock Music","#99ff44","Music","1950.0.0","","",""
+"N","Punk Music","#99ff44","Music","1968.0.0","","",""
+"N","Pop Music","#99ff44","Music","1982.0.0","","",""
+
+# other-activities
+"N","Sport","#9A1885",,"1500.0.0","","",""
+"N","Gymnastics","#9A1885","Sport","1550.0.0","","",""
+"N","Figue skating","#59189A","Sport","1700.0.0","","",""
+"N","Ice Dancing","#18949A","Sport","1952.0.0","","",""
+
+#Tribal: Regional African Dances, Folk:{Morris,Fest Noz, Irish, Clog, Juba, Raqs Sharqi"Belly Dance" }, Highland,
+"N","Tribal","#662905",,"1400.0.0","","",""
+"N","Traditional West African Dances","#120905","Tribal","1600.0.0","","",""
+"N","Folk","#662905","Tribal","1600.0.0","","",""
+"N","Line Dances","#5c7152","Folk","1800.0.0","","",""
+"N","Polka","#662905","Folk","1834.0.0","","",""
+
+#Asian: Balinese legong, Regional Indian Dances, Belly dance
+#"N","Asian","#ff9944",,"1390.0.00","","",""
+
+#Latin: Tango[1890], Bolero[1780] Samba, Cha-Cha, Rumba[1930], Mambo[1940], Paso Doble, Jive[1934], Merengue[1940], Calypso, Flamenco,
+"N","Latin","#ff9944",,"1770.0.00","","",""
+"N","Argentine tango","#ff9944","Latin","1890.0.00","","",""
+"N","Bolero","#ff9944","Latin","1780.0.0","2000.00.00","",""
+"N","Rumba","#ff9944","Latin","1930.0.0","","",""
+"N","Mambo","#ff9944","Latin","1940.0.0","","",""
+"N","Paso Doble","#ff9944","Latin","1777.0.0","","",""
+"N","Samba","#ff9944","Latin","1917.0.0","","",""
+
+#Ballroom: slow waltz, tango, foxtrot, quickstep, Viennese waltz
+"N","Ballroom","#1C8B0F",,"1700.0.00","","",""
+"N","Viennese Waltz","#1C8B0F","Ballroom","1780.0.00","","",""
+"N","French Waltz","#1C8B0F","Viennese Waltz","1809.0.00","","",""
+"N","English Waltz","#1C8B0F","Viennese Waltz","1820.0.00","","",""
+"N","Tango","#1C8B0F","Ballroom","1890.0.00","","",""
+"N","Quickstep","#1C8B0F","Ballroom","1920.0.00","","",""
+
+#European:  minuet[1600], Mazurka[1825], Ballet[1400], LeRoc[1981]
+"N","European","#1316E7",,"1390.0.00","","",""
+"N","Minuet","#1316E7","European","1601.0.00","","",""
+"N","Mazurka","#1316E7","European","1825.0.00","","",""
+"N","Ballet","#C48793","European","1400.0.00","","",""
+"N","LeRoc","#ff9944","European","1981.0.00","","",""
+
+#Fad: Madison[1957], twist[1959], Chicken_Dance[1981], Macarena[1996], Gangnam Style[2012], Twerking[ 1990-2004]
+"N","Modern Fads","#5c7152","Charleston","1924.0.0","","","","Twist","1959","","Chicken Dance","1981","","Macarena","1996","","Gangnam Style","2012",""
+"N","Madison","#5c7152","Modern Fads","1957","1958","",""
+"N","Twerking","#5c7152","Modern Fads","1990","2004","",""
+
+#American:
+"N","American","#ff3333",,"1880.0.00","","",""
+#        Balboa, East Coast Swing, Lindy Hop, West Coast Swing[1947], East Coast Swing[1961], Charleston[1923], Jitterbug[1929]
+#        Salsa[1970]
+#        Tap[1880], Jive, Reggae:{DanceHall, Reggae, Ska}, Hip Hop, Blues
+"N","Charleston","#ff3333",,"1923.0.0","1925.0.0","",""
+"N","Jazz","#ff3333","American","1910.0.0","1940.0.0","",""
+"N","Lindy Hop","#ff3333","American","1928.0.0","","",""
+"N","Modern Lindy","#ff3333","American","1981.0.0","","",""
+"N","Jitterbug","#ff3333","American","1929.01.0","","",""
+"N","Jive","#ff3333","American","1929.10.0","","",""
+"N","Blues","#3333ff","American","1900.00.0","","",""
+"N","Rhumba","#ff3333","American","1930.00.0","","",""
+"N","Drag Blues","#3333ff","American","1940.00.0","","",""
+"N","Swing","#ff3333","American","1950.0.0","","",""
+"N","Tap","#787370","American","1881.2.0","","",""
+"N","Balboa","#ff3333","American","1919","","",""
+"N","West Coast Swing","#ff3333","Lindy Hop","1951.2.0","","",""  # blind guess
+"N","Salsa","#ff3333","American","1970","","",""
+"N","Rock","#ff3333","Swing","1953","","",""
+
+#Modern: Scottish Country Dancing,
+"N","Modern","#ff9944","Folk","1950.0.0","","",""
+"N","Scottish Country Dancing","#ff9944","Modern","1950.0.0","","",""
+#Swing[1950].
+
+"N","Contempary","#F660AB","Ballet","1953.0.0","","",""
+
+,,,,,,,,,,,,,,,,
+"#","Connectors",,,,,,,,,,,,,,, "#","Leaving 'To When' empty will result in using 'From When' as this value"
+"#","From When","From","To When","To","Thickness","Color"
+"C","","Bolero","","Rumba","3","#445fff"
+"C","","Bolero","","Mambo","3","#445fff"
+"C","1920.0.0","American","1923.0.0","Charleston","5","#445f0f"
+"C","1923","Charleston","1982","Lindy Hop","4","#445f0f"
+"C","","Charleston","","Modern Fads","4","#445f0f"
+
+// can not remember why this next connector is here
+"C","1929.01.01","Jitterbug","1929.01.01","Jive","3","#445fff"
+"C","1970","Lindy Hop","1981","LeRoc","3","#445fff"
+"C","1958","Madison","1982","Modern Lindy","3","#445fff"
+"C","1950","Tango","1962","Drag Blues","3","#445fff"
+"C","1929","Tap","1930","Lindy Hop","3","#445fff"
+"C","1979","Balboa","1985","Modern Lindy","3","#445fff"
+"C","1949","Swing","1951","West Coast Swing","3","#445fff"
+"C","1968","Swing","1970","Salsa","3","#445fff"
+"C","1969","Lindy Hop","1970","Salsa","3","#445fff"
+"C","1970","Tribal","","Argentine tango","3","#445fff"
+"C","1966","Argentine tango","1970","Salsa","3","#445fff"
+"C","1964","Ballroom","1970","Salsa","3","#445fff"
+#Balboa->Eastern Swing
+#Eastern Swing->East Coast Swing
+#Lindy Hop->East Coast Swing
+"C","","Rock","","LeRoc","3","#445fff"
+#Lerock->Ceroc ? can we do this without littigation? Probably best to skip it
+#gymnastics->Tango
+#figure skating->Tango
+#Madison->Swing
+#Line Dance->Madison
+"C","","Line Dances","","Madison","3","#445fff"
+# Macarena
+"C","1979.01.01","Rhumba","1996.01.01","Modern Fads","3","#445fff"
+# Ballroom fads
+"C","1734","Folk","1781","Viennese Waltz","3","#445f0f"
+"C","1924","Charleston","","Quickstep","3","#445f0f"
+
+# Ice Dancing influences, omitting duplicates
+"C","1900","Figue skating","1953","Ice Dancing","2","#445fff"
+"C","1983","Paso Doble","1983","Ice Dancing","2","#445fff"
+"C","1984","Quickstep","1984","Ice Dancing","2","#445fff"
+"C","1985","Polka","1985","Ice Dancing","2","#445fff"
+"C","1986","Viennese Waltz","1986","Ice Dancing","2","#445fff"
+"C","1987","Tango","1987","Ice Dancing","2","#445fff"
+"C","1988","Charleston","1988","Ice Dancing","2","#445fff"
+"C","1989","Samba","1989","Ice Dancing","2","#445fff"
+"C","1990","Blues","1990","Ice Dancing","2","#445fff"
+"C","1993","Rhumba","1993","Ice Dancing","2","#445fff"
+"C","1997","Jive","1997","Ice Dancing","2","#445fff"
+
+#1999 Latin Combination: Merengue, Cha Cha, Samba, Mambo, Rumba
+#2000 Charleston, Foxtrot, Quickstep and March
+#2001 Tango, Flamenco, Paso Doble and Spanish Waltz
+#2002 Memories of a Grand Ball: Waltz, Polka, March, and Gallop
+#2003 Swing Combo: Jive, Boogie Woogie, Jitterbug, Rock N' Roll and Blues
+#2004 Foxtrot, Quickstep, Charleston
+#2005 Latin Combination: Merengue, Cha Cha, Samba, Mambo, Rumba
+#2006 Tango
+#2007 Folk, Country
+
+,,,,,,,,,,,,,,,,
+"#","Domains"
+"#","Distribution","Color","Intensity"
+"D","Music","#008000","9"
+"D","Tribal","#2B1B17","9"
+#"D","Asian","#F62217","9"
+"D","European","#7D0552","9"
+"D","American","#057D31","9"
+"D","Latin","#C11B17","9"
+"D","Swing","#FDD017","9"
+"D","Modern","#ADD8E6","9"
+"D","Modern Fads","#C0C0C0","9"
+
+,,,,,,,,,,,,,,,,
+"#","Images"
+"#","File Path","x Position","y Position"
+"#PNG","images/example.png","1071","20"
+
+

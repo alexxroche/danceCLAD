@@ -1,0 +1,47 @@
+= About DanceCLAD =
+
+Dance and music are probably as old as human societies. Maybe dance came out of some shamanistic practises. Maybe dance was spontaneously invented over and over in the past 10,000 years. What we do know is that there are many many dance siblings in the family of dance. We could group them by geography, time, influences, style, music, performers and even function.
+
+This is a rough visual depiction of some dances. Fork and correct all mistakes as you feel is required. This is in no way authoritative. Its a visual hand-waving, "sort of like that" chronology. Dance usually fuses other dances, as these seldom evolve in a vacuum. 
+
+The rough layout is:
+    Music at the top, then sport. Dances, (very roughly) by continent, and last of all modern Fad dances, (which are more and more international).
+    Influence connections are marked with dotted lines
+
+
+Copyright 2014-2016 Alexx Roche. Released under The MIT License and 
+ Creative Commons Attribution-ShareAlike 4.0 International License.
+
+
+== Requirements ==
+
+gnuclad 
+    ( 
+      It would be nice if gnuclad: 
+        had a fade-in option, just as it has a face-out option.   
+        could deal with multiple parents.
+        parser could deal with in-line comments # so that this on the end of line does not throw date errors.
+        could transition the line colour at a date
+        could optionally reapply line labels:
+            at particular dates (1800,1900), or on the right (and optionally only for those lines that have not died.)
+    )
+
+== uses by default ==
+
+=== SVG viewer ===
+
+viewnoir or gpicview
+
+=== make ===
+
+gmake (though others may work)
+
+== convert to png ==
+
+inkscape
+
+== "INSTALLING" ==
+
+make && make view
+
+(more like compile than make)
