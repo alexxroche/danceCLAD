@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="uses" content="http://www.jacklmoore.com/wheelzoom/" />
+        <title></title>
+        <meta name="description" content="danceCLAD">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <style type="text/css">
+      #Container {
+        position:relative;
+        width:100%;
+        height:90%;
+        overflow:hidden;
+        border: 3px solid #538D01;
+      };
+       img.zoom {
+            display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+
+        }
+        #README #usage {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 1.875em;
+        }
+        #README {
+            text-align: center;
+            font-weight: bold;
+        }
+        ul
+        {
+        margin: 0;
+       /* 
+        padding: 0;
+        list-style-type: none;
+        text-align: right;
+        width: 10em;
+        */
+        }
+     </style>
+        
+    </head>
+    <body>
+        <div id="Container">
+            <p><img width="100%" height="100%" class="zoom" src="dance.svg" alt="DanceCLAD" onClick="if(!!window.event.shiftKey){ document.querySelector('img').dispatchEvent(new CustomEvent('wheelzoom.reset')); }" /></p>
+        </div>
+
+        <script src="js/wheelzoom.js"></script>
+    <script>
+        wheelzoom(document.querySelector('img.zoom'));
+    </script>
+    <div id="usage">
+     <b>Controls:</b><ul>
+        <li> Use mousewheel to zoom;<br/>
+        <li> Drag using left-click;<br/>
+        <li> Shift+mousewheel side-scroll, ( as god intended. ;-)
+        <li> Ctrl+mousewheel vertical-scroll for good measure.
+        <li> Shift+left-click resets the zoom.
+        </ul>Created using gnuclad and displayed thanks to a gently hacked http://www.jacklmoore.com/wheelzoom/
+    </div>
+    <div id="README">
+        <br/>
+        This is still not definitive. If you disagree with the selected dates or connections, then fork-off....  your own version.
+    </div> 
+    <div id="copyright">
+        Copyright 2014-2016 Alexx Roche. MIT Licence or Creative Commons Attribution-ShareAlike 4.0 International License.
+    </div>
+    </body>
+</html>
+
