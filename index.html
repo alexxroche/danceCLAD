@@ -10,24 +10,17 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
       <style type="text/css">
-      #Container {
-        position:relative;
-        width:100%;
-        height:90%;
-        overflow:hidden;
-        border: 3px solid #538D01;
-      };
-       img.zoom {
-            display: block;
-  max-width:230px;
-  max-height:95px;
-  width: auto;
-  height: auto;
+        #Container {
+			position:relative;
+			width:100%;
+			height:90%;
+			overflow:hidden;
+			border: 3px solid #538D01;
+        };
 
-        }
         #README #usage {
             font-family: "Times New Roman", Times, serif;
-            font-size: 1.875em;
+            font-size: 1.0em;
         }
         #README {
             text-align: center;
@@ -36,23 +29,28 @@
         ul
         {
         margin: 0;
-       /* 
-        padding: 0;
-        list-style-type: none;
-        text-align: right;
-        width: 10em;
-        */
+        font-size: 0.85em;
         }
      </style>
         
     </head>
     <body>
         <div id="Container">
-            <p><img width="100%" height="100%" class="zoom" src="dance.svg" alt="DanceCLAD" onClick="if(!!window.event.shiftKey){ document.querySelector('img').dispatchEvent(new CustomEvent('wheelzoom.reset')); }" /></p>
+            <p><img id="danceCLAD" width="100%" height="100%" class="zoom" src="dance.svg" alt="DanceCLAD" onClick="if(!!window.event.shiftKey){ document.querySelector('img').dispatchEvent(new CustomEvent('wheelzoom.reset')); }" /></p>
         </div>
 
         <script src="js/wheelzoom.js"></script>
     <script>
+		<!--// select png for firefox 38.7.1 because it has a hard time with svg 201604211000 -->
+		function detectBrowser() {
+			var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+			if(is_firefox){ 
+				var img = document.getElementById("danceCLAD");
+				changeImage(img); 
+			}
+		}
+		function changeImage(img) { img.src = img.src.replace("svg", "png"); }
+		window.onload = detectBrowser();
         wheelzoom(document.querySelector('img.zoom'));
     </script>
     <div id="usage">
@@ -65,8 +63,7 @@
         </ul>Created using gnuclad and displayed thanks to a gently hacked http://www.jacklmoore.com/wheelzoom/
     </div>
     <div id="README">
-        <br/>
-        This is still not definitive. If you disagree with the selected dates or connections, then fork-off....  your own version.
+        This is still not definitive. If you disagree with the selected dates or connections, then <a href="https://github.com/alexxroche/danceCLAD">fork-off</a>... your own version.
     </div> 
     <div id="copyright">
         Copyright 2014-2016 Alexx Roche. MIT Licence or Creative Commons Attribution-ShareAlike 4.0 International License.

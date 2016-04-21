@@ -83,7 +83,8 @@ window.wheelzoom = (function(){
 			var bgRatioY = bgCursorY/bgHeight;
 
          // do not reseize if shift is pressed (may be needed for sidescrolling)
-         if(window.event.shiftKey == false && window.event.ctrlKey == false){
+         var evt = e || window.event;    
+         if(evt.shiftKey == false && evt.ctrlKey == false){
 			// Update the bg size:
 			if (deltaY < 0) {
 				bgWidth += bgWidth*settings.zoom;
@@ -101,12 +102,12 @@ window.wheelzoom = (function(){
 			// Prevent zooming out beyond the starting size
 			if (bgWidth <= width || bgHeight <= height) {
 				reset();
-            } else if(window.event.shiftKey){
+            } else if(evt.shiftKey){
                 //sidescroll(deltaY);
                 bgPosX -= deltaY;
                 previousEvent = e;
                 updateBgStyle();
-            } else if(window.event.ctrlKey){
+            } else if(evt.ctrlKey){
                 bgPosY -= deltaY;
                 previousEvent = e;
                 updateBgStyle();
