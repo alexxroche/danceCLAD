@@ -1,12 +1,16 @@
 /*!
-	Wheelzoom 3.0.4
+	Wheelzoom 3.0.4lxr_s
 	license: MIT
 	http://www.jacklmoore.com/wheelzoom
+
+    ver 3.0.4lxr_s adds scrolling when zoomed using the shift (up/down) and ctrl(side)
+            Also variable rate scrolling for firefox
 */
 window.wheelzoom = (function(){
 	var defaults = {
 		zoom: 0.10
 	};
+    var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 
 	var canvas = document.createElement('canvas');
 
@@ -104,11 +108,19 @@ window.wheelzoom = (function(){
 				reset();
             } else if(evt.shiftKey){
                 //sidescroll(deltaY);
-                bgPosX -= deltaY;
+                if(is_firefox){
+                    bgPosX -= deltaY * 11;
+                }else{
+                    bgPosX -= deltaY;
+                }
                 previousEvent = e;
                 updateBgStyle();
             } else if(evt.ctrlKey){
-                bgPosY -= deltaY;
+                if(is_firefox){
+                    bgPosY -= deltaY * 12;
+                }else{
+                    bgPosY -= deltaY;
+                }
                 previousEvent = e;
                 updateBgStyle();
             } else {
