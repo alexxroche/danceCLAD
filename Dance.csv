@@ -32,23 +32,45 @@
 "N","Line Dances","#5c7152","Folk","1800.0.0","","",""
 "N","Polka","#662905","Folk","1834.0.0","","",""
 
+#"N","Maasai Jumping","#662905","Traditional West African Dances","????.0.0","","",""
+#"N","Zulu","#662905","Traditional West African Dances","????.0.0","","",""
+#"N","Tswana","#662905","Traditional West African Dances","????.0.0","","",""
+#"N","Zaouli","#662905","Traditional West African Dances","????.0.0","","",""
+#"N","African Dances","#662905","Traditional West African Dances","????.0.0","","",""
+#"N","Sabar","#662905","African Dances","????.0.0","","",""
+#"N","Kupe Dekale","#662905","African Dances","????.0.0","","",""
+
 #Asian: Balinese legong, Regional Indian Dances, Belly dance
 #"N","Asian","#ff9944",,"1390.0.00","","",""
+#"N","Bhangra","#ff9944",,"1???.0.00","","","India"
+#"N","Khon","#ff9944",,"1???.0.00","","","Thailand"
+#"N","Tinikling","#ff9944",,"1???.0.00","","","Philippines"
+#"N","Kabuki","#ff9944",,"1???.0.00","","","Japan"
+#"N","Dragon Dance","#ff9944",,"1???.0.00","","","China"
 
-#Latin: Tango[1890], Bolero[1780] Samba, Cha-Cha, Rumba[1930], Mambo[1940], Paso Doble, Jive[1934], Merengue[1940], Calypso, Flamenco,
+#Latin: Tango[1890], Bolero[1780] Samba, Cha-Cha, Rumba[1930], Mambo[1940], Paso Doble, Jive[1934], Merengue[1940], Calypso,
 "N","Latin","#ff9944",,"1770.0.00","","",""
 "N","Argentine tango","#ff9944","Latin","1890.0.00","","",""
 "N","Bolero","#ff9944","Latin","1780.0.0","2000.00.00","",""
 "N","Rumba","#ff9944","Latin","1930.0.0","","",""
+# You solve the rumba flamenca 10 Sub-genres 
 "N","Mambo","#ff9944","Latin","1940.0.0","","",""
+#"N","Cha Cha","#ff9944","Latin","1???.0.0","","",""
 "N","Paso Doble","#ff9944","Latin","1777.0.0","","",""
 "N","Samba","#ff9944","Latin","1917.0.0","","",""
+#"N","Milonga","#ff9944","Latin","????.0.0","","",""
+
+#"N","Merengué","#ff9944","Latin","????.0.0","","",""
+#"N","Forró","#ff9944","Latin","????.0.0","","",""
+#"N","Bachata","#ff9944","Latin","????.0.0","","",""
+#"N","Zouk","#ff9944","Latin","????.0.0","","",""
 
 #Ballroom: slow waltz, tango, foxtrot, quickstep, Viennese waltz
 "N","Ballroom","#1C8B0F",,"1700.0.00","","",""
 "N","Viennese Waltz","#1C8B0F","Ballroom","1780.0.00","","",""
 "N","French Waltz","#1C8B0F","Viennese Waltz","1809.0.00","","",""
 "N","English Waltz","#1C8B0F","Viennese Waltz","1820.0.00","","",""
+"N","Foxtrot","#1C8B0F","English Waltz","1914","1935","",""
 "N","Tango","#1C8B0F","Ballroom","1890.0.00","","",""
 "N","Quickstep","#1C8B0F","Ballroom","1920.0.00","","",""
 
@@ -59,10 +81,33 @@
 "N","Ballet","#C48793","European","1400.0.00","","",""
 "N","LeRoc","#ff9944","European","1981.0.00","","",""
 
-#Fad: Madison[1957], twist[1959], Chicken_Dance[1981], Macarena[1996], Gangnam Style[2012], Twerking[ 1990-2004]
+#"N","La Bouree","#ff9944","European","1???.0.00","","","Britany (France)"
+#"N","La Ridee","#ff9944","European","1???.0.00","","","Britany (France)"
+#"N","Gavotte","#ff9944","European","1???.0.00","","","France"
+#"N","La Java","#ff9944","European","1???.0.00","","","France"
+# La Java looks too much like Balboa (USA West) to be a coincidence
+#"N","Flamenco","#ff9944","European","1???.0.00","","","Spain"
+# There has to be a link from Flamenco to Latin dances?
+
+#Fad: Madison[1957], twist[1959], Chicken_Dance[1981], Macarena[1996], Gangnam Style[2012], Twerking[ 1990-2004], Kizomba[2017],
 "N","Modern Fads","#5c7152","Charleston","1924.0.0","","","","Twist","1959","","Chicken Dance","1981","","Macarena","1996","","Gangnam Style","2012",""
-"N","Madison","#5c7152","Modern Fads","1957","1958","",""
 "N","Twerking","#5c7152","Modern Fads","1990","2004","",""
+"N","Madison","#5c7152","Modern Fads","1957","1958","",""
+"N","Kizomba","#5c7152","Modern Fads","2017","2018","",""
+
+#exercise: Hula Hoop[1950], Yoga[1970], Jazzercise [1970], aerobics [1981], Tae Bo [1990], zumba [2011.01], TaiChi [when?], 5TibetanRites [eventually] ? Baguazhang ?? Xing Yi Quan
+"N","Exercise","#5c7152","","1939.0.0","","",""
+"N","Hula Hoop","#5c7152","Exercise","1950","1952","",""
+"N","Cheng Man-ch`ing TaiChi","#5c7152","Exercise","1964","1975","",""
+"N","Yoga","#5c7152","Exercise","1970","1982","",""
+"N","Jazzercise","#5c7152","Exercise","1970","1981","",""
+"N","aerobics","#5c7152","Exercise","1981","1990","",""
+"N","Tae Bo","#5c7152","Exercise","1990","1995","",""
+"N","Modern Yoga","#5c7152","Yoga","2001","","",""
+"N","zumba","#5c7152","Exercise","2011.01","2015","",""
+#"N","5 Tibetan Rites","#5c7152","Exercise","2039.01","","",""
+#"N","TaiChi","#5c7152","Exercise","2047.01","","",""
+#"N","Qigong","#5c7152","Exercise","2059.01","","",""
 
 #American:
 "N","American","#ff3333",,"1880.0.00","","",""
@@ -142,6 +187,7 @@
 "C","1990","Blues","1990","Ice Dancing","2","#445fff"
 "C","1993","Rhumba","1993","Ice Dancing","2","#445fff"
 "C","1997","Jive","1997","Ice Dancing","2","#445fff"
+"C","1920","Tango","1930","Foxtrot","2","#445fff"
 
 #1999 Latin Combination: Merengue, Cha Cha, Samba, Mambo, Rumba
 #2000 Charleston, Foxtrot, Quickstep and March
