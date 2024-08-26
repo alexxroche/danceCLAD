@@ -1,5 +1,6 @@
 all: 
 	gnuclad Dance.csv dance.svg config
+	convert dance.svg dance.png
 
 show:
 	gpicview dance.svg
